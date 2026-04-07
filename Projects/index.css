@@ -1,0 +1,82 @@
+/* Global Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Is se padding layout ko kharab nahi karti */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Navigation */
+nav {
+    background-color: #1b75d5;
+    padding: 15px 0;
+    position: sticky; /* Scroll karte waqt top par rahega */
+    top: 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center; /* Links ko center mein karne ke liye */
+    gap: 20px; /* Links ke darmiyan barabar fasla */
+    flex-wrap: wrap; /* Mobile screen par links neeche shift ho jayenge */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #d1e8ff;
+}
+
+/* Layout Container */
+#container {
+    max-width: 900px; /* Ziyada wide nahi rakha taake reading asan ho */
+    margin: 30px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Sections Spacing */
+section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h1 {
+    color: #1b75d5;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.skills-list {
+    list-style-position: inside;
+    margin-left: 10px;
+}
+
+.project-item {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #1b75d5;
+}

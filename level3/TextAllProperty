@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Text Property</title>
+    <style> *{
+        margin:0;
+        padding:0;
+    }
+        
+           #head{
+            background-color: rgb(243, 149, 168);
+             
+
+             text-decoration:underline;
+             text-decoration-color: chartreuse;
+             text-transform: uppercase;
+
+           }
+           #link{
+            text-decoration: none;
+            text-transform: capitalize;
+           }
+           .article{
+             line-height:30px; 
+             font-size: 22px;
+            font-weight: 900; 
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+           }
+    </style>
+</head>
+<body>
+    <h2> <div id="head"> THis is the second heading </div></h2> 
+    <a id="link" href="#">THis is Link</a><br>
+    <p class="article" >  Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta provident saepe perspiciatis sunt fugit pariatur voluptatum, nobis amet, minima labore esse facere sint reiciendis blanditiis! Deserunt quae quo perferendis optio!</p>
+    
+
+
+    
+</body>
+</html>
